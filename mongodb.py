@@ -11,7 +11,7 @@ Authdb='roly'
 
 ##### 資料庫連接 #####
 def constructor():
-    client = MongoClient('mongodb://roly:<password>@cluster0-shard-00-00-1akwb.mongodb.net:27017,cluster0-shard-00-01-1akwb.mongodb.net:27017,cluster0-shard-00-02-1akwb.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority')
+    client = MongoClient('mongodb://roly:dayi3774@cluster0-shard-00-00-1akwb.mongodb.net:27017,cluster0-shard-00-01-1akwb.mongodb.net:27017,cluster0-shard-00-02-1akwb.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority')
     db = client[Authdb]
     return db
    
